@@ -599,7 +599,7 @@ public class UpdatesSettings extends PreferenceFragmentCompat implements
         mUpdatesList.removeAll();
 
         // Convert the installed version name to the associated filename
-        String installedZip = "lineage-" + Utils.getInstalledVersion() + ".zip";
+        String installedZip = "ridon-" + Utils.getInstalledVersion() + ".zip";
 
         // Add the updates
         for (UpdateInfo ui : updates) {

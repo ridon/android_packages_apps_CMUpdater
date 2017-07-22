@@ -97,7 +97,7 @@ public class Utils {
 
     public static UpdateInfo getInstalledUpdateInfo() {
         return new UpdateInfo.Builder()
-            .setFileName("lineage-" + getInstalledVersion() + ".zip")
+            .setFileName("ridon-" + getInstalledVersion() + ".zip")
             .setVersion(getInstalledVersionName())
             .setApiLevel(getInstalledApiLevel())
             .setBuildDate(getInstalledBuildDate())
