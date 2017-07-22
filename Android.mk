@@ -32,7 +32,7 @@ LOCAL_AAPT_FLAGS := \
     --extra-packages android.support.v7.recyclerview \
     --extra-packages android.support.v7.cardview
 
-LOCAL_AAPT_FLAGS += --rename-manifest-package id.ridon.updater
+LOCAL_AAPT_FLAGS += --rename-manifest-package org.lineageos.updater
 
 LOCAL_PACKAGE_NAME := CMUpdater
 
